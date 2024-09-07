@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.kotakeducation.shoutbox">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ShoutBoxTeacher">
+        <activity android:name=".Activities.AddEnquiryDetailsActivity"
+            android:windowSoftInputMode="adjustPan"/>
+        <activity android:name=".Activities.Comments" />
+        <activity android:name=".Activities.UserInfo" />
+        <activity android:name=".Activities.EditProjectActivity" />
+        <activity android:name=".Activities.ProjectDisplayActivity" />
+        <activity android:name=".Activities.AddProjectActivity" />
+        <activity android:name=".Activities.ProjectFeedActivity" />
+        <activity android:name=".Activities.LoginScreenActivity" />
+        <activity android:name=".Activities.SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
